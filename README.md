@@ -6,5 +6,5 @@ Instructions for simple autotyper:
     (time should be pre-installed in the Python distribution)
 4. Create a new text file (.txt) using notepad or a similar program. Separate typed items by new lines.
 5. Edit the python script's file path on line 62 with the file path of your text file:
-   `text_file = 'C:\Users\joelt\OneDrive\Documents.txt'`
+   `text_file = 'C:\Users\[USER]\Documents.txt'`
 6. Use the autotyper at any time by running the script and press `Esc` to stop it if you made a mistake.
