@@ -7,4 +7,6 @@ Instructions for simple autotyper:
 4. Create a new text file (.txt) using notepad or a similar program. Separate typed items by new lines.
 5. Edit the python script's file path on line 62 with the file path of your text file:
    `text_file = 'C:\Users\[USER]\Documents.txt'`
-6. Use the autotyper at any time by running the script and press `Esc` to stop it if you made a mistake.
+6. Make a batch (.bat) file with the following text in the first line referencing your python executable file path  in quotes and the script file in quotes:
+         "C:\Users\[user]\anaconda3\python.exe" "C:\Users\[user]\Documents\Python Scripts\Autotype_Script_HPLC_Down_v1_6_windows.py"
+8. Use the autotyper at any time by running the script and press `Esc` to stop it if you made a mistake.
